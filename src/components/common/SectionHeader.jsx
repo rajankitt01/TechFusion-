@@ -15,9 +15,9 @@ export function SectionHeader({
   const isCenter = align === 'center';
 
   return (
-    <div className={`mb-10 md:mb-12 ${isCenter ? 'text-center max-w-2xl mx-auto' : 'max-w-2xl'} ${className}`}>
+    <div className={`mb-7 md:mb-9 ${isCenter ? 'text-center max-w-2xl mx-auto' : 'max-w-2xl'} ${className}`}>
       {tag && (
-        <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-3.5 ${isCenter ? 'mx-auto' : ''}`}>
+        <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-2.5 ${isCenter ? 'mx-auto' : ''}`}>
           <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
           <span>{tag}</span>
         </div>
@@ -28,12 +28,12 @@ export function SectionHeader({
       </h2>
 
       {description && (
-        <p className="mt-3 text-sm sm:text-base text-[#2B384E] leading-relaxed">
+        <p className="mt-2.5 text-sm sm:text-base text-[#2B384E] leading-relaxed">
           {description}
         </p>
       )}
 
-      {children && <div className="mt-5">{children}</div>}
+      {children && <div className="mt-4">{children}</div>}
     </div>
   );
 }

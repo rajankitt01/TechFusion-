@@ -35,15 +35,15 @@ export function Careers() {
   return (
     <PageWrapper>
       {/* Editorial Hero */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-16 md:py-24 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-6 shadow-2xs">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-4 shadow-2xs">
               <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
               <span>ENGINEERING CAREERS</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
               Build Production Systems with High Engineering Standards
             </h1>
 
@@ -55,7 +55,7 @@ export function Careers() {
       </section>
 
       {/* Engineering Culture Pillars */}
-      <section className="py-14 md:py-18 bg-[#F1F4F8] border-b border-[#E2E7EF]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] border-b border-[#E2E7EF]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid md:grid-cols-3 gap-6 text-left">
             {perks.map((perk, idx) => {
@@ -63,7 +63,7 @@ export function Careers() {
               return (
                 <div
                   key={idx}
-                  className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] p-7 space-y-3 transition-all duration-200 group shadow-[0_4px_20px_rgba(17,24,39,0.04)]"
+                  className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] p-6 space-y-2.5 transition-all duration-200 group shadow-[0_4px_20px_rgba(17,24,39,0.04)]"
                 >
                   <div className="h-10 w-10 rounded-lg bg-[#EEF3FF] border border-[#C9D7F5] flex items-center justify-center text-[#0B1220] group-hover:text-[#1677FF] transition-colors duration-200">
                     <Icon className="h-5 w-5" />
@@ -82,10 +82,10 @@ export function Careers() {
       </section>
 
       {/* Open Roles Section */}
-      <section className="py-16 md:py-24 bg-[#F7F8FA]" id="open-positions">
+      <section className="pt-10 md:pt-12 lg:pt-14 pb-12 md:pb-14 lg:pb-16 bg-[#F7F8FA]" id="open-positions">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 text-left">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 md:mb-8 text-left">
             <div>
               <span className="text-xs font-mono text-[#0B1220] font-bold tracking-wider uppercase block mb-2">
                 ACTIVE OPENINGS

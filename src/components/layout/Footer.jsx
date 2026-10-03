@@ -8,8 +8,8 @@ export function Footer() {
     <footer 
       className="relative bg-[whitesmoke] border-t border-[#E2E8F0] text-[#475569] text-sm overflow-hidden"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-16 pb-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-[#E2E8F0]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-10 md:pt-12 pb-8 md:pb-10 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-8 pb-8 md:pb-10 border-b border-[#E2E8F0]">
           
           {/* Brand & Value Proposition */}
           <div className="lg:col-span-2 space-y-5 text-left">
@@ -196,7 +196,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Legal & Security Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[#64748B]">
+        <div className="pt-5 sm:pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[#64748B]">
           <div className="flex items-center gap-2">
             <ShieldCheck className="h-4 w-4 text-[#10B981]" />
             <span>© {new Date().getFullYear()} TechFusion Global Software. All rights reserved.</span>

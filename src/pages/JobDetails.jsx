@@ -22,22 +22,22 @@ export function JobDetails() {
   return (
     <PageWrapper>
       {/* Header */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-8 md:py-10 lg:py-12 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
             <Link 
               to="/careers" 
-              className="inline-flex items-center gap-2 text-xs font-mono font-medium text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200 mb-6 group"
+              className="inline-flex items-center gap-2 text-xs font-mono font-medium text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200 mb-4 group"
             >
               <ArrowLeft className="h-3.5 w-3.5 group-hover:-translate-x-0.5 transition-transform duration-200" />
               <span>Back to Open Positions</span>
             </Link>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-3.5">
               {job.title}
             </h1>
 
-            <div className="flex flex-wrap items-center gap-4 text-xs font-mono text-[#0B1220] pt-2">
+            <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-[#0B1220] pt-1">
               <span className="flex items-center gap-1.5 px-3 py-1 rounded bg-[#EEF3FF] border border-[#C9D7F5] text-[#0B1220] font-bold shadow-2xs">
                 <Briefcase className="w-3.5 h-3.5 text-[#1677FF]" /> {job.department}
               </span>
@@ -56,12 +56,12 @@ export function JobDetails() {
       </section>
 
       {/* Main Details & Application */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid lg:grid-cols-12 gap-12 text-left">
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 text-left">
             
             {/* Left Column: Role Details (7 cols) */}
-            <div className="lg:col-span-7 space-y-8">
+            <div className="lg:col-span-7 space-y-5 md:space-y-6">
               <div className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-8 space-y-4 shadow-[0_4px_20px_rgba(17,24,39,0.04)]">
                 <h2 className="text-sm font-bold text-[#0B1220] font-mono tracking-wider uppercase">
                   ROLE OVERVIEW

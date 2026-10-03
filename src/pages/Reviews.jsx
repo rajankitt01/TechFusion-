@@ -8,15 +8,15 @@ export function Reviews() {
   return (
     <PageWrapper>
       {/* Editorial Hero */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-16 md:py-24 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-6 shadow-2xs">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-4 shadow-2xs">
               <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
               <span>// VERIFIED FEEDBACK</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
               Client Endorsements & Engineering Feedback
             </h1>
 
@@ -28,7 +28,7 @@ export function Reviews() {
       </section>
 
       {/* Reviews Grid */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8]">
+      <section className="pt-10 md:pt-12 lg:pt-14 pb-12 md:pb-14 lg:pb-16 bg-[#F1F4F8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial) => (
@@ -73,7 +73,7 @@ export function Reviews() {
 
           {/* Floating CTA Card above footer */}
           <div 
-            className="mt-16 rounded-[16px] bg-[#0A1128] border border-white/[0.08] p-8 md:p-10 text-center max-w-3xl mx-auto space-y-4 shadow-[0_20px_50px_rgba(0,0,0,0.45),0_0_0_1px_rgba(255,255,255,0.06)] text-white relative z-10"
+            className="mt-10 md:mt-12 rounded-[16px] bg-[#0A1128] border border-white/[0.08] p-8 md:p-10 text-center max-w-3xl mx-auto space-y-4 shadow-[0_20px_50px_rgba(0,0,0,0.45),0_0_0_1px_rgba(255,255,255,0.06)] text-white relative z-10"
             style={{
               background: "radial-gradient(circle at 50% 0%, #111e3b 0%, #080c16 80%)",
             }}

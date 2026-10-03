@@ -39,11 +39,11 @@ export function WorkProcess() {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-[#F7F8FA] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#F7F8FA] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
         <SectionHeader
-          tag="// 06. AGILE METHODOLOGY"
+          
           title="Predictable, Transparent Delivery Lifecycle"
           description="Every sprint is tracked, documented, and test-driven. You always know what is being built, when it ships, and how it performs."
         />

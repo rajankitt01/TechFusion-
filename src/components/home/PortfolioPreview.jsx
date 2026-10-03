@@ -8,12 +8,12 @@ export function PortfolioPreview() {
   const featured = projects.slice(0, 3);
 
   return (
-    <section className="py-16 lg:py-24 bg-[#F7F8FA] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#F7F8FA] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 md:mb-8">
           <SectionHeader
-            tag="// 04. PRODUCTION CASE STUDIES"
+            
             title="Featured Engineering Deployments"
             description="Explore representative systems we have architected, from cloud ERP dashboards to real-time e-commerce infrastructure."
             align="left"

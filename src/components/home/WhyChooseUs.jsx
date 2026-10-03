@@ -14,7 +14,7 @@ export function WhyChooseUs() {
       icon: GitPullRequest,
       badge: "RADICAL TRANSPARENCY",
       title: "Live Weekly Staging Previews",
-      description: "No multi-month black boxes. We deploy working milestone builds to isolated staging environments every single week so you can test real progress in real time."
+      description: "We deploy working milestone builds to isolated staging environments every week, giving you clear, hands-on visibility into verified sprint progress."
     },
     {
       icon: Cpu,
@@ -26,18 +26,18 @@ export function WhyChooseUs() {
       icon: Activity,
       badge: "SLA OBSERVABILITY",
       title: "Continuous Observability",
-      description: "Real-time error tracking with Sentry, automated uptime health checks, and performance alerts configured from sprint zero for complete operational peace of mind."
+      description: "Real-time error tracking, automated health checks, and proactive alerting configured from sprint zero to ensure ongoing system reliability in production."
     }
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-[#EEF2F7] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#EEF2F7] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
         <SectionHeader
-          tag="// 03. ENGINEERING STANDARDS"
+        
           title="Engineered for Production Scale & Maintainability"
-          description="We build software meant to withstand heavy operational loads, real user spikes, and complex business logic without crumbling."
+          description="We build software designed to handle high transaction volumes, traffic spikes, and demanding business logic reliably."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">

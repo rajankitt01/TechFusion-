@@ -40,15 +40,15 @@ export function About() {
   return (
     <PageWrapper>
       {/* Editorial Hero */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-5 shadow-2xs">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-4 shadow-2xs">
               <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
               <span>// ABOUT TECHFUSION</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-5">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
               A Software Engineering Studio Built on Precision & Accountability
             </h1>
 
@@ -60,11 +60,11 @@ export function About() {
       </section>
 
       {/* Story & Studio Heritage */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8] border-b border-[#E2E7EF]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] border-b border-[#E2E7EF]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             
-            <div className="lg:col-span-7 space-y-5 text-left">
+            <div className="lg:col-span-7 space-y-4 text-left">
               <span className="text-xs font-mono text-[#0B1220] font-bold tracking-wider uppercase block">
                 // OUR PHILOSOPHY & STORY
               </span>
@@ -74,15 +74,15 @@ export function About() {
               </h2>
 
               <p className="text-sm sm:text-base text-[#2B384E] leading-relaxed">
-                Most agencies fail because they treat software development as an assembly line of generic templates, handed off to junior developers with layers of non-technical account managers in between.
+                Too often, digital projects suffer when software development is treated as an assembly line of generic templates, passed between non-technical intermediaries and disconnected junior teams.
               </p>
 
               <p className="text-sm sm:text-base text-[#2B384E] leading-relaxed">
-                TechFusion was established with a singular engineering philosophy: assemble small, senior, highly focused product squads who care deeply about system architecture, data integrity, and end-user UX.
+                TechFusion was founded on a simple principle: build small, senior, focused engineering squads who take direct responsibility for system architecture, data integrity, and user experience.
               </p>
 
               <p className="text-sm sm:text-base text-[#2B384E] leading-relaxed">
-                Headquartered at Unitech Cyber Park in Gurugram, India, our team has partnered with fast-moving startups and established mid-market enterprises across healthcare, finance, logistics, and retail to build software that scales reliably under heavy real-world usage.
+                Headquartered at Unitech Cyber Park in Gurugram, India, our team partners with ambitious startups and established mid-market enterprises across healthcare, finance, logistics, and retail to build software that scales reliably under real-world usage.
               </p>
 
               <div className="pt-1 flex items-center gap-2 text-xs font-mono font-medium text-[#2B384E]">
@@ -127,27 +127,27 @@ export function About() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 md:py-24 bg-[#F7F8FA] border-b border-[#E2E7EF]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F7F8FA] border-b border-[#E2E7EF]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid md:grid-cols-2 gap-6 text-left">
             
-            <div className="group rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-7 md:p-8 space-y-3.5 shadow-[0_4px_20px_rgba(11,18,32,0.04)] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] transition-all duration-200">
+            <div className="group rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-6 md:p-7 space-y-3 shadow-[0_4px_20px_rgba(11,18,32,0.04)] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] transition-all duration-200">
               <div className="h-10 w-10 rounded-lg bg-[#EEF3FF] border border-[#C9D7F5] flex items-center justify-center text-[#0B1220] group-hover:text-[#1677FF] group-hover:bg-[#FFFFFF] group-hover:border-[#BFDBFE] transition-all duration-200">
                 <Target className="h-5 w-5" />
               </div>
               <h2 className="text-lg font-bold text-[#0B1220] group-hover:text-[#1677FF] transition-colors duration-200">Our Mission</h2>
               <p className="text-sm text-[#2B384E] leading-relaxed">
-                To engineer secure, scalable, and resilient digital products that solve operational bottlenecks, streamline manual complexity, and accelerate our partners' market leadership.
+                To engineer secure, scalable, and maintainable software that eliminates operational bottlenecks, simplifies complex workflows, and supports our clients' long-term business goals.
               </p>
             </div>
 
-            <div className="group rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-7 md:p-8 space-y-3.5 shadow-[0_4px_20px_rgba(11,18,32,0.04)] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] transition-all duration-200">
+            <div className="group rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-6 md:p-7 space-y-3 shadow-[0_4px_20px_rgba(11,18,32,0.04)] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] transition-all duration-200">
               <div className="h-10 w-10 rounded-lg bg-[#EEF3FF] border border-[#C9D7F5] flex items-center justify-center text-[#0B1220] group-hover:text-[#1677FF] group-hover:bg-[#FFFFFF] group-hover:border-[#BFDBFE] transition-all duration-200">
                 <Eye className="h-5 w-5" />
               </div>
               <h2 className="text-lg font-bold text-[#0B1220] group-hover:text-[#1677FF] transition-colors duration-200">Our Vision</h2>
               <p className="text-sm text-[#2B384E] leading-relaxed">
-                To be the most trusted technology engineering partner for organizations that demand impeccable code quality, zero fluff, and verifiable engineering excellence.
+                To be the trusted technology engineering partner for organizations that demand rigorous code quality, transparent collaboration, and verifiable technical delivery.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ export function About() {
       </section>
 
       {/* Core Principles */}
-      <section className="py-16 md:py-24 bg-[#EEF2F7]">
+      <section className="pt-10 md:pt-12 lg:pt-14 pb-12 md:pb-14 lg:pb-16 bg-[#EEF2F7]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <SectionHeader
             tag="// OPERATING PRINCIPLES"

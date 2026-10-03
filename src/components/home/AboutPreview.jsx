@@ -11,17 +11,14 @@ export function AboutPreview() {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-[#F7F8FA] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#F7F8FA] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
-        <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
           
           {/* Left Narrative */}
-          <div className="lg:col-span-6 space-y-5 text-left">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] shadow-2xs">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
-              <span>// 02. STUDIO PHILOSOPHY</span>
-            </div>
+          <div className="lg:col-span-6 space-y-4 text-left">
+           
 
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#0B1220] leading-snug">
               Software Engineered for Long-Term Resilience, Not Short-Term Hype
@@ -32,15 +29,15 @@ export function AboutPreview() {
             </p>
 
             <p className="text-sm text-[#2B384E] leading-relaxed">
-              We reject brittle shortcuts, unnecessary buzzwords, and vendor lock-in. Instead, we write maintainable code, test edge cases, and design clean interfaces that your customers and internal teams love using every single day.
+              We focus on modular architectures, thorough test coverage, and intuitive interfaces that serve your users reliably every day.
             </p>
 
-            <div className="pt-2 flex items-center gap-2 text-xs font-mono font-medium text-[#2B384E]">
+            <div className="pt-1 flex items-center gap-2 text-xs font-mono font-medium text-[#2B384E]">
               <MapPin className="h-3.5 w-3.5 text-[#1677FF]" />
               <span>Tower A, Unitech Cyber Park, Sector 39, Gurugram, India</span>
             </div>
 
-            <div className="pt-3">
+            <div className="pt-2 sm:pt-2.5">
               <Link
                 to="/about"
                 className="group inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#FFFFFF] border border-[#E2E7EF] text-sm font-bold text-[#0B1220] hover:bg-[#F8FAFF] hover:border-[#BFDBFE] hover:text-[#1677FF] transition-all duration-200 shadow-2xs"
@@ -91,7 +88,7 @@ export function AboutPreview() {
 
               <div className="mt-4 pt-4 border-t border-[#E2E7EF] flex items-center justify-between text-[11px] font-mono font-bold text-[#0B1220]">
                 <span>SENIOR SQUADS ONLY</span>
-                <span>ZERO JUNIOR OUTSOURCING</span>
+                <span>DIRECT SENIOR ACCESS</span>
               </div>
             </div>
           </div>

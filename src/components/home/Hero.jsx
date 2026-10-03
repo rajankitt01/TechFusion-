@@ -15,11 +15,11 @@ export function Hero() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-[#F7F8FA] tech-subtle-grid pt-12 md:pt-16 pb-16 lg:pb-20 border-b border-[#E2E7EF]">
+    <section className="relative overflow-hidden bg-[#F7F8FA] tech-subtle-grid pt-7 md:pt-9 lg:pt-11 pb-10 md:pb-12 lg:pb-14 border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
         
         {/* Top Understated Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono text-[#0B1220] mb-6 shadow-2xs">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono text-[#0B1220] mb-4 sm:mb-5 shadow-2xs">
           <span className="h-2 w-2 rounded-full bg-[#1677FF]"></span>
           <span className="text-[#0B1220] font-bold">TechFusion Engineering Studio</span>
           <span className="text-[#596579]">•</span>
@@ -27,10 +27,10 @@ export function Hero() {
         </div>
 
         {/* Main Grid: Value Proposition + Architecture Showcase */}
-        <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
           
           {/* Left Column: Clear Value Proposition */}
-          <div className="lg:col-span-6 space-y-5 text-left">
+          <div className="lg:col-span-6 space-y-4 sm:space-y-4.5 text-left">
             <h1 className="text-3xl sm:text-4xl lg:text-[44px] font-black tracking-tight text-[#0B1220] leading-[1.18]">
               We Architect and Build Resilient Software for Ambitious Enterprises
             </h1>
@@ -40,7 +40,7 @@ export function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <div className="pt-1.5 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
               <Button size="lg" asChild>
                 <Link to="/contact" className="group gap-2">
                   <span>Schedule Technical Discovery</span>
@@ -56,7 +56,7 @@ export function Hero() {
             </div>
 
             {/* Credibility Anchors */}
-            <div className="pt-6 grid grid-cols-3 gap-6 border-t border-[#E2E7EF] text-left">
+            <div className="pt-4 sm:pt-5 grid grid-cols-3 gap-6 border-t border-[#E2E7EF] text-left">
               <div>
                 <p className="text-2xl font-bold font-mono text-[#0B1220]">100%</p>
                 <p className="text-xs text-[#2B384E] font-medium mt-0.5">Code Ownership Transfer</p>
@@ -219,8 +219,8 @@ export function Hero() {
         </div>
 
         {/* Technology Stack Strip */}
-        <div className="mt-14 pt-8 border-t border-[#E2E7EF]">
-          <p className="text-xs font-mono font-bold text-[#0B1220] uppercase tracking-wider mb-4 text-center lg:text-left">
+        <div className="mt-8 md:mt-10 pt-6 border-t border-[#E2E7EF]">
+          <p className="text-xs font-mono font-bold text-[#0B1220] uppercase tracking-wider mb-3 text-center lg:text-left">
             Core Production Technologies
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">

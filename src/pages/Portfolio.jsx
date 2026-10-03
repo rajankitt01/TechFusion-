@@ -14,15 +14,15 @@ export function Portfolio() {
   return (
     <PageWrapper>
       {/* Editorial Hero */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-[11px] font-mono font-bold tracking-wide text-[#0B1220] mb-5 shadow-2xs">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-[11px] font-mono font-bold tracking-wide text-[#0B1220] mb-4 shadow-2xs">
               <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
               <span>// PRODUCTION DEPLOYMENTS</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-5">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
               Engineering Case Studies & Deployed Platforms
             </h1>
 
@@ -34,11 +34,11 @@ export function Portfolio() {
       </section>
 
       {/* Filterable Portfolio Grid */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           
           {/* Category Filter Pills */}
-          <div className="flex flex-wrap items-center gap-2 mb-10">
+          <div className="flex flex-wrap items-center gap-2 mb-6 md:mb-8">
             {categories.map((cat) => (
               <button
                 key={cat}

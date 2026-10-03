@@ -5,13 +5,13 @@ import { FileText, Lock } from 'lucide-react';
 export function Privacy() {
   return (
     <PageWrapper>
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-4 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-3.5 shadow-2xs">
             <Lock className="h-3.5 w-3.5 text-[#1677FF]" />
             <span>SECURITY & COMPLIANCE</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight mb-3.5">
             Privacy & Data Protection Policy
           </h1>
           <p className="text-xs font-mono text-[#0B1220] font-medium">
@@ -20,7 +20,7 @@ export function Privacy() {
         </div>
       </section>
 
-      <section className="py-14 md:py-20 bg-[#F1F4F8] text-left">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl space-y-6 text-sm text-[#2B384E] leading-relaxed">
           
           <div className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] p-8 space-y-3 shadow-[0_4px_20px_rgba(17,24,39,0.04)] transition-all duration-200 group">
@@ -60,13 +60,13 @@ export function Privacy() {
 export function Terms() {
   return (
     <PageWrapper>
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-4 shadow-2xs">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220] mb-3.5 shadow-2xs">
             <FileText className="h-3.5 w-3.5 text-[#1677FF]" />
             <span>CONTRACTUAL TERMS</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight mb-3.5">
             Terms of Engineering Engagement
           </h1>
           <p className="text-xs font-mono text-[#0B1220] font-medium">
@@ -75,7 +75,7 @@ export function Terms() {
         </div>
       </section>
 
-      <section className="py-14 md:py-20 bg-[#F1F4F8] text-left">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl space-y-6 text-sm text-[#2B384E] leading-relaxed">
           
           <div className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] hover:border-[#BFDBFE] hover:bg-[#F8FAFF] p-8 space-y-3 shadow-[0_4px_20px_rgba(17,24,39,0.04)] transition-all duration-200 group">

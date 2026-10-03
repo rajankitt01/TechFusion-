@@ -1,130 +1,130 @@
 export const jobs = [
   {
     id: 'frontend-developer',
-    title: 'Frontend Developer',
+    title: 'Senior Frontend Engineer (React / Next.js)',
     department: 'Engineering',
-    experience: '2-4 Years',
+    experience: '3-5 Years',
     jobType: 'Full-time',
-    location: 'Remote / India',
-    shortDescription: 'We are looking for a passionate Frontend Developer with strong React skills to build intuitive user interfaces.',
+    location: 'Hybrid / Gurugram or Remote (India)',
+    shortDescription: 'Architect modular frontend applications, design systems, and responsive web clients using React 19, Next.js, and TypeScript.',
     responsibilities: [
-      'Develop user-facing features using React.js',
-      'Build reusable components and front-end libraries',
-      'Translate designs and wireframes into high-quality code',
-      'Optimize components for maximum performance across web-capable devices and browsers'
+      'Architect maintainable, component-driven web interfaces using React, Next.js, and TypeScript',
+      'Implement pixel-accurate, accessible UI components adhering to WCAG 2.1 AA standards',
+      'Optimize web performance, Core Web Vitals, and client-side caching strategies',
+      'Collaborate with backend engineers to define and consume typed REST and GraphQL APIs'
     ],
     requirements: [
-      'Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model',
-      'Thorough understanding of React.js and its core principles',
-      'Experience with popular React.js workflows (such as Flux or Redux)',
-      'Familiarity with RESTful APIs'
+      'Strong command of modern JavaScript/TypeScript, DOM performance, and state management patterns',
+      'Demonstrated experience building production applications with React and Next.js (App Router)',
+      'Proven track record optimizing Lighthouse scores, bundle sizes, and Core Web Vitals',
+      'Proficiency with automated unit/integration testing (Vitest, Jest, React Testing Library)'
     ],
     niceToHave: [
-      'Experience with Next.js',
-      'Knowledge of modern authorization mechanisms, such as JSON Web Token',
-      'Familiarity with modern front-end build pipelines and tools'
+      'Experience with Tailwind CSS and Radix UI / Headless UI component primitives',
+      'Familiarity with SSR edge middleware and server actions',
+      'Contributions to open-source UI libraries or developer tooling'
     ],
     benefits: [
-      'Competitive Salary',
-      'Health Insurance',
-      'Flexible Working Hours',
-      'Learning & Development Budget'
+      'Competitive market salary with performance reviews',
+      'Comprehensive health and medical insurance',
+      'Flexible hybrid / remote working flexibility',
+      'Annual learning, conference, and book budget'
     ]
   },
   {
     id: 'backend-developer',
-    title: 'Backend Developer',
+    title: 'Backend Systems Engineer (Node.js / Python)',
     department: 'Engineering',
-    experience: '3-5 Years',
+    experience: '3-6 Years',
     jobType: 'Full-time',
-    location: 'Remote / India',
-    shortDescription: 'Join our team to build robust and scalable backend systems using Node.js and PostgreSQL.',
+    location: 'Hybrid / Gurugram or Remote (India)',
+    shortDescription: 'Design resilient microservices, distributed transaction pipelines, and high-throughput databases using Node.js, Python, and PostgreSQL.',
     responsibilities: [
-      'Design and develop robust backend APIs using Node.js',
-      'Manage and optimize database systems (PostgreSQL, MongoDB)',
-      'Implement security and data protection measures',
-      'Collaborate with front-end developers on API integration'
+      'Design, develop, and scale RESTful and event-driven backend microservices in Node.js / Python',
+      'Model relational schemas in PostgreSQL and configure caching layers with Redis',
+      'Implement OAuth2, JWT authentication, RBAC, and OWASP-compliant security protocols',
+      'Automate containerized CI/CD pipelines and deployment orchestration with Docker and AWS'
     ],
     requirements: [
-      'Proven experience as a Backend Developer',
-      'In-depth understanding of Node.js and Express',
-      'Experience with SQL and NoSQL databases',
-      'Understanding of server-side templating languages'
+      'Solid foundations in data structures, concurrency, distributed systems, and API design',
+      'In-depth hands-on experience with Node.js, TypeScript, Express/Fastify, or Python (FastAPI)',
+      'Strong proficiency with PostgreSQL, including indexing, query optimization, and transactions',
+      'Experience with Redis caching, message queues (RabbitMQ/Kafka), and asynchronous jobs'
     ],
     niceToHave: [
-      'Experience with cloud platforms like AWS or Azure',
-      'Familiarity with Docker and containerization',
-      'Knowledge of GraphQL'
+      'Hands-on experience with AWS services (ECS, RDS, S3, CloudFront, Lambda)',
+      'Familiarity with Infrastructure as Code (Terraform or Pulumi)',
+      'Knowledge of database migration frameworks and zero-downtime cutover patterns'
     ],
     benefits: [
-      'Competitive Salary',
-      'Health Insurance',
-      'Flexible Working Hours',
-      'Gym Membership'
+      'Competitive market compensation package',
+      'Comprehensive medical insurance coverage',
+      'Modern workstation budget / remote setup allowance',
+      'Direct mentorship with seasoned engineering leadership'
     ]
   },
   {
     id: 'ui-ux-designer',
-    title: 'UI/UX Designer',
+    title: 'Product & UI/UX Designer',
     department: 'Design',
-    experience: '2-5 Years',
+    experience: '3-5 Years',
     jobType: 'Full-time',
     location: 'Hybrid / Gurugram, India',
-    shortDescription: 'Create beautiful, engaging, and user-centric designs for our web and mobile applications.',
+    shortDescription: 'Create clean, intuitive product interfaces, design systems, and interaction workflows for high-complexity enterprise and SaaS tools.',
     responsibilities: [
-      'Gather and evaluate user requirements in collaboration with product managers and engineers',
-      'Illustrate design ideas using storyboards, process flows and sitemaps',
-      'Design graphic user interface elements, like menus, tabs and widgets',
-      'Develop UI mockups and prototypes'
+      'Lead end-to-end UX architecture: user journey mapping, wireframing, interactive prototyping, and final design specs',
+      'Build and maintain scalable design systems and component libraries in Figma with robust auto-layout tokens',
+      'Conduct usability research sessions, heuristic audits, and translate feedback into iterative design improvements',
+      'Partner directly with frontend engineers to guarantee high-fidelity design implementation in production'
     ],
     requirements: [
-      'Proven work experience as a UI/UX Designer or similar role',
-      'Portfolio of design projects',
-      'Knowledge of wireframe tools (e.g. Figma, InVision)',
-      'Up-to-date knowledge of design software like Adobe Illustrator and Photoshop'
+      'Substantial portfolio showing shipped B2B SaaS, mobile, or enterprise web platforms',
+      'Expert proficiency in Figma, design tokens, responsive typography, and component variants',
+      'Deep understanding of user ergonomics, accessibility (WCAG), and responsive grid layouts',
+      'Ability to communicate rational design decisions clearly to cross-functional stakeholders'
     ],
     niceToHave: [
-      'Experience with HTML/CSS',
-      'Understanding of basic front-end frameworks',
-      'Experience with motion design'
+      'Working knowledge of HTML, CSS, and component structure in React',
+      'Experience with micro-animations and prototyping tools (Framer, Principle, Lottie)',
+      'Experience designing data-heavy dashboards and complex data visualizations'
     ],
     benefits: [
-      'Competitive Salary',
-      'Health Insurance',
-      'Creative Workspace',
-      'Annual Retreats'
+      'Competitive compensation review schedule',
+      'Health and wellness insurance coverage',
+      'High-spec hardware and software design toolkit',
+      'Collaborative, low-bureaucracy product culture'
     ]
   },
   {
     id: 'flutter-developer',
-    title: 'Flutter Developer',
+    title: 'Mobile Applications Engineer (Flutter / React Native)',
     department: 'Engineering',
-    experience: '1-3 Years',
+    experience: '2-5 Years',
     jobType: 'Full-time',
-    location: 'Remote',
-    shortDescription: 'Build high-performance cross-platform mobile apps using Flutter and Dart.',
+    location: 'Remote / India',
+    shortDescription: 'Engineer fluid, native-grade mobile applications with offline-first persistence, push notifications, and high-performance render cycles.',
     responsibilities: [
-      'Design and build advanced applications for the iOS and Android platforms',
-      'Collaborate with cross-functional teams to define, design, and ship new features',
-      'Work with outside data sources and APIs',
-      'Unit-test code for robustness, including edge cases, usability, and general reliability'
+      'Develop and maintain high-performance cross-platform iOS and Android applications using Flutter / Dart',
+      'Architect resilient offline-first storage pipelines and background data sync mechanisms',
+      'Integrate third-party SDKs, hardware sensor APIs, secure biometrics, and push notifications',
+      'Automate build, signing, and release pipelines to Apple App Store and Google Play Store'
     ],
     requirements: [
-      'Proven software development experience and Android/iOS skills development',
-      'Experience building mobile apps using Flutter',
-      'Experience with third-party libraries and APIs',
-      'Solid understanding of the full mobile development life cycle'
+      'Demonstrated experience shipping production mobile apps to the App Store and Google Play',
+      'Strong command of Flutter architecture patterns (BLoC, Riverpod, or Provider) and Dart',
+      'Proficiency in REST/WebSocket integration, JSON serialization, and memory leak profiling',
+      'Solid understanding of mobile UI performance profiling (60fps render targets)'
     ],
     niceToHave: [
-      'Experience with native Android (Kotlin) or iOS (Swift) development',
-      'Knowledge of CI/CD for mobile apps',
-      'Published apps on Play Store or App Store'
+      'Experience with native mobile development in Swift (iOS) or Kotlin (Android)',
+      'Familiarity with Fastlane and mobile CI/CD pipelines',
+      'Knowledge of mobile security, cryptographic storage, and certificate pinning'
     ],
     benefits: [
-      'Competitive Salary',
-      'Health Insurance',
-      'Flexible Working Hours',
-      'Remote Work Setup Allowance'
+      'Competitive salary with bi-annual performance bonuses',
+      'Full family health insurance coverage',
+      'Flexible remote working arrangement',
+      'Home office setup stipend'
     ]
   }
 ];

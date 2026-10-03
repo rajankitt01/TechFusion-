@@ -14,11 +14,11 @@ export function IndustriesPreview() {
   };
 
   return (
-    <section className="py-16 lg:py-24 bg-[#F1F4F8] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
         <SectionHeader
-          tag="// 05. SECTOR SPECIALIZATION"
+          
           title="Engineered for Regulated & High-Load Industries"
           description="We navigate domain-specific compliance, transaction security, and real-time processing demands across key commercial sectors."
         />
@@ -77,7 +77,7 @@ export function IndustriesPreview() {
           })}
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-7 md:mt-8 text-center">
           <Link
             to="/industries"
             className="group inline-flex items-center gap-2 text-sm font-bold text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200"

@@ -8,15 +8,15 @@ export function Industries() {
   return (
     <PageWrapper>
       {/* Editorial Hero */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-14 md:py-20 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-10 md:py-12 lg:py-14 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-[11px] font-mono font-bold tracking-wide text-[#0B1220] mb-5 shadow-2xs">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-[11px] font-mono font-bold tracking-wide text-[#0B1220] mb-4 shadow-2xs">
               <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
               <span>// DOMAIN SPECIALIZATION</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-5">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
               Industry-Specific Software Architecture & Compliance
             </h1>
 
@@ -28,15 +28,15 @@ export function Industries() {
       </section>
 
       {/* Industries Showcase */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="space-y-6">
+          <div className="space-y-5">
             {industries.map((industry, index) => {
               const Icon = industry.icon;
               return (
                 <div 
                   key={industry.id}
-                  className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-7 md:p-8 hover:border-[#BFDBFE] hover:bg-[#F8FAFF] hover:shadow-[0_4px_20px_rgba(17,24,39,0.06)] transition-all duration-200 text-left shadow-[0_4px_20px_rgba(17,24,39,0.04)] group"
+                  className="rounded-xl bg-[#FFFFFF] border border-[#E2E7EF] p-6 md:p-7 hover:border-[#BFDBFE] hover:bg-[#F8FAFF] hover:shadow-[0_4px_20px_rgba(17,24,39,0.06)] transition-all duration-200 text-left shadow-[0_4px_20px_rgba(17,24,39,0.04)] group"
                 >
                   <div className="grid lg:grid-cols-12 gap-8 items-start">
                     

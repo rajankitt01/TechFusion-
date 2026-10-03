@@ -14,17 +14,14 @@ export function ServicesSection() {
   };
 
   return (
-    <section className="py-16 lg:py-24 bg-[#F1F4F8] border-b border-[#E2E7EF]">
+    <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8] border-b border-[#E2E7EF]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         
-        <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-start">
           
           {/* Left Column: Context & Editorial Narrative (4 cols) */}
-          <div className="lg:col-span-4 space-y-6 text-left lg:sticky lg:top-28">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#EEF3FF] border border-[#C9D7F5] text-xs font-mono font-bold tracking-wider text-[#0B1220]">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#1677FF]"></span>
-              <span>// 01. CAPABILITIES</span>
-            </div>
+          <div className="lg:col-span-4 space-y-4 sm:space-y-5 text-left lg:sticky lg:top-24">
+            
 
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#0B1220] leading-snug">
               Full-Lifecycle Software Engineering Services
@@ -34,7 +31,7 @@ export function ServicesSection() {
               We design, build, and support production-grade digital infrastructure. From customer-facing web and mobile applications to internal ERP engines and cloud automation, every system is engineered for scale and maintainability.
             </p>
 
-            <div className="pt-2 space-y-2.5 text-xs text-[#2B384E]">
+            <div className="pt-1.5 space-y-2 text-xs text-[#2B384E]">
               <div className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-[#1677FF] shrink-0" />
                 <span className="font-medium">100% Repository & IP Handover from Day 1</span>
@@ -49,7 +46,7 @@ export function ServicesSection() {
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-2 sm:pt-3">
               <Link
                 to="/services"
                 className="group inline-flex items-center gap-2 text-sm font-bold text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200"

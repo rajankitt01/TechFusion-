@@ -16,25 +16,25 @@ export function ProjectDetails() {
   return (
     <PageWrapper>
       {/* Header */}
-      <section className="bg-[#F7F8FA] tech-subtle-grid py-12 md:py-16 border-b border-[#E2E7EF] text-left">
+      <section className="bg-[#F7F8FA] tech-subtle-grid py-8 md:py-10 lg:py-12 border-b border-[#E2E7EF] text-left">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-3xl">
             <Link 
               to="/portfolio" 
-              className="inline-flex items-center gap-2 text-xs font-mono font-medium text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200 mb-5 group"
+              className="inline-flex items-center gap-2 text-xs font-mono font-medium text-[#0B1220] hover:text-[#1677FF] transition-colors duration-200 mb-4 group"
             >
               <ArrowLeft className="h-3.5 w-3.5 group-hover:-translate-x-0.5 transition-transform duration-200" />
               <span>Back to Case Studies</span>
             </Link>
 
-            <div className="flex items-center gap-3 mb-3">
+            <div className="flex items-center gap-3 mb-2.5">
               <span className="text-xs font-mono px-2.5 py-0.5 rounded bg-[#EEF3FF] border border-[#C9D7F5] text-[#0B1220] font-bold shadow-2xs">
                 {project.category}
               </span>
               <span className="text-xs font-mono text-[#0B1220] font-bold">PRODUCTION DEPLOYMENT</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0B1220] tracking-tight leading-[1.15] mb-3.5">
               {project.title}
             </h1>
 
@@ -46,7 +46,7 @@ export function ProjectDetails() {
       </section>
 
       {/* Featured Architecture Showcase */}
-      <section className="py-10 md:py-14 bg-[#F1F4F8] border-b border-[#E2E7EF]">
+      <section className="py-6 md:py-8 bg-[#F1F4F8] border-b border-[#E2E7EF]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="rounded-xl overflow-hidden border border-[#E2E7EF] aspect-[16/9] max-h-[480px] w-full bg-[#FFFFFF] shadow-sm">
             <img 
@@ -59,12 +59,12 @@ export function ProjectDetails() {
       </section>
 
       {/* Case Study Details */}
-      <section className="py-16 md:py-24 bg-[#F1F4F8]">
+      <section className="py-10 md:py-12 lg:py-14 bg-[#F1F4F8]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid lg:grid-cols-12 gap-10 text-left">
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 text-left">
             
             {/* Left Content (8 cols) */}
-            <div className="lg:col-span-8 space-y-10">
+            <div className="lg:col-span-8 space-y-6 md:space-y-8">
               
               {/* Challenge vs Solution */}
               <div className="grid md:grid-cols-2 gap-5">
